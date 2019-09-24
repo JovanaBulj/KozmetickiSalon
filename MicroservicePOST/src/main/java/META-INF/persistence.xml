@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="MicroservicePOST">
+		<class>post.jpa.Klijent</class>
+		<class>post.jpa.Racun</class>
+		<class>post.jpa.Recepcioner</class>
+		<class>post.jpa.Specijalnost</class>
+		<class>post.jpa.Termin</class>
+		<class>post.jpa.Usluga</class>
+		<class>post.jpa.VrstaUsluge</class>
+		<class>post.jpa.Zaposleni</class>
+	</persistence-unit>
+</persistence>
