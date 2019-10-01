@@ -9,7 +9,7 @@ import javax.persistence.*;
  * 
  */
 @Entity
-@NamedQuery(name="Racun.findAll", query="SELECT r FROM Racun r")
+//@NamedQuery(name="Racun.findAll", query="SELECT r FROM Racun r")
 public class Racun implements Serializable {
 	private static final long serialVersionUID = 1L;
 

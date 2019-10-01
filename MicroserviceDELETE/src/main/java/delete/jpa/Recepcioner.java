@@ -13,7 +13,7 @@ import java.util.List;
  * 
  */
 @Entity
-@NamedQuery(name="Recepcioner.findAll", query="SELECT r FROM Recepcioner r")
+//@NamedQuery(name="Recepcioner.findAll", query="SELECT r FROM Recepcioner r")
 public class Recepcioner implements Serializable {
 	private static final long serialVersionUID = 1L;
 
